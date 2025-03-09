@@ -15,6 +15,8 @@ The following presentations show the colors via `Legend` markers in his slides
 
 *Note: To clear up a misconception: Dmitry does not use these color patterns in his LabVIEW code.. rather, this is just an idea I had for the color scheme I would use in **my** LabVIEW code. The inspiration was gained by watching his recorded presenations above*
 
+*Note: Any generated messages, such as those created using Actor Framework via scripting are **NOT** changed to the colors here. Their  API is left untouched*
+
 ![Block Diagram](Images/Block%20Diagram.png)
 
 ![Class Hierarchy](Images/Class%20Hierarchy.png)
