@@ -25,4 +25,11 @@ The following presentations show the colors via `Legend` markers in his slides
 
 ### Wire Appearance
 
-![Wire Appearance](Images/Wire%20Appearance.png)
+![Wire Appearance](Images/Wire%20Appearance.png)\
+
+# Justification
+
+It is since to see just three colors when using a class. In particular, in the ideal world, we'll be using a plugin architecture. This means that we'll be using the *Dependency Inversion Principle (D in SOLID)* so that only objects composed in our class of interest will be:
+1. Abstract Classes and
+2. Interfaces<br>
+Therefore, when changing the source code for a class (which is a blue color wire), the only blue color wire will be the class. Otherwise, any other object that is used will be teal (abstract class) or grenn (interface). It should be immediately clear that you are ***NOT*** following the Dependency Inversion Principle if there are multiple blue wires belonging to different classes.. within your class you're editing.
